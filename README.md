@@ -4,7 +4,13 @@ This example demonstrates removing unused CSS classes from the excellent [Tailwi
 
 In this example, the Purgecss configuration is in the webpacker production.js file. This means you will not see Purgecss used in development. If you want to see what happens in development, you could copy everything except the NODE_ENV from the production.js to development.js or move the code from production.js to environment.js.
 
-## Installation
+## How to install the sample app
+
+1. Clone the project 
+2. `bundle install`
+3. `yarn install`
+
+## How to Setup In Your Own Project
 
 1. Follow the setup instructions on the [Tailwind CSS gem][5].
 2. `yarn add glob-all purgecss-webpack-plugin`
